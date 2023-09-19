@@ -1,0 +1,124 @@
+
+/* Step 2 */
+/* Reset default style */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+/* adding background to website */
+body{
+    background-image: url('../img/kirke.png'); /* Adjust the path to your image */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+/*  navbar section start */
+
+  nav {
+    background-color: rgb(199, 197, 197);
+  }
+
+  nav {
+    background-color: rgb(199, 197, 197);
+    height: 80px;
+    width: 100%;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    
+  }
+
+  
+
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 60px;
+  }
+
+  nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+/*  navbar section end  */ 
+
+
+
+/* search-info start */
+
+
+.search-info {
+    display: flex;
+    align-items: center;
+}
+/* space between */
+.search-info .btn {
+   order: 1;
+   margin-right: 1000px;
+}
+/* space between */
+.search-info input[type="text"]{
+    order: 2;
+    margin-right: 10px;
+}
+/* space between */
+.search-info i.fa-search{
+    order: 3;
+    margin-right: 10px;
+}
+
+
+.search-info input {
+    margin-left: auto; /
+}
+/* size of burger bar */
+.search-info .btn i.fa-bars{
+    font-size: 40px;
+    
+}
+/* size of input search */
+.search-info input[type="text"]{
+    font-size: 24px;
+    padding: 3px;
+}
+/* size of search icon  */
+.search-info i.fa-search{
+    font-size: 24px;
+}
+
+.btn{
+    border-radius: 50%;
+    font-size: 10px;
+    
+}
+
+/* search-info  end*/
+
+
+/* content area start   */
+
+
+.content-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 10vh; /* Adjust height as needed; this centers the content within the viewport height */
+    text-align: center; /* Center text within the container */
+}
+
+
+
+
+/* content area end   */
+
+
+
+
+
+
